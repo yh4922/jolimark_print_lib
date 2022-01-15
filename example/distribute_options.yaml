@@ -1,0 +1,19 @@
+output: dist/
+releases:
+  - name: dev
+    jobs:
+      - name: release-dev-android
+        package:
+          platform: android
+          target: apk
+          build_args:
+            target: lib/main.dart
+            flavor: dev
+            target-platform: android-arm64
+      - name: release-dev-win
+        package:
+          platform: windows
+          target: exe
+          build_args:
+            target: lib/main.dart
+            flavor: dev

@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.civicint.print.flutter_print">
+  <!-- 权限申请 -->
+  <!-- 启动监听 -->
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <!-- 蓝牙 -->
+  <uses-permission android:name="android.permission.BLUETOOTH" /> 
+  <!-- 蓝牙管理 -->
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+  <!-- 获取精细位置 -->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <!-- 获取模糊位置 -->
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <!-- 网络访问权限 -->
+  <uses-permission android:name="android.permission.INTERNET" />
+  <!-- 外部存储读取权限 -->
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>
